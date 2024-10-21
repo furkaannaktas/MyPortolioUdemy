@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPortolioUdemy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9152d5f77257cc76f2593b3f37192fa2e7167c95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPortolioUdemy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPortolioUdemy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
