@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("_LayoutHeadComponentPartial")
+
+<body>
+	<div class="wrapper">
+		@await Component.InvokeAsync("_LayoutNavBarComponentPartial")
+		@await Component.InvokeAsync("_LayoutSidebarComponentPartial")
+
+		<div class="main-panel">
+			@RenderBody()
+			<footer class="footer">
+				<div class="container-fluid">					
+					<div class="copyright ml-auto">
+						@DateTime.Now.Year, made with <i class="text-danger"></i> by <a href="#">Furkan Aktaş</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	</div>		
+</body>
+@await Component.InvokeAsync("_LayoutScriptComponentPartial")
+
+
+</html>
