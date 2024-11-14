@@ -5,7 +5,7 @@
 * Asp.net (mvc)
 * MSSEL
 * Code First
-* Fornt-end
+* Front-end
 * Html
 * Css
 * Bootstrap
